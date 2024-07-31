@@ -1,0 +1,28 @@
+package a3107;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class SAYORIv2 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+	
+		int soma = 0;
+		ArrayList<Integer> numeros  = new ArrayList<>();
+		   int i = 1; 
+		   while (i!= 0) {
+		    	System.out.print("Digite um número: ");
+		    	i = ler.nextInt();
+		    	if (i!=0) {
+		    	numeros.add(i);
+		    	}
+		    	
+		    			    }
+			for (int numero : numeros) {
+				soma = soma + numero;
+			}
+
+			System.out.println(numeros + "=" + soma);
+			
+
+			}}
