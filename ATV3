@@ -1,0 +1,25 @@
+package a3107;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class SAYORIv3 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		////////////////////////////////////////////////
+		ArrayList<Integer> numeros  = new ArrayList<>();
+		   int i = 1; 
+		   System.out.println("DIGITE 0 PARA ENCERRAR");
+		   System.out.println("----------------------");
+		   while (i!= 0) {
+		    	System.out.print("Digite um número: ");
+		    	i = ler.nextInt();
+		    	if (i!=0) {
+		    	numeros.add(i);
+		    	}
+		///////////////////////////////////////////////    	
+		    			    }
+		   System.out.println("Números pares são:");		
+  for (int numero : numeros){
+		if (numero%2==0) {
+		System.out.println(numero);
+		}}}}
